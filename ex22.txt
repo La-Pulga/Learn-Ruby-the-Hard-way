@@ -1,0 +1,41 @@
+puts: displays the results of the code with a newline (linebreak) between each result. 
+print: displays the result of the code without a linebreak and without space between characters.
+variable: Data definition used by the script. Can hold any type of value. 
+"": Used to tell what the string is. Double-quoted strings support ALL escape token. 
+# : (pound symbol) Used to write comments
++ : Used to add in calculations, or add strings between them. 
+- : minus, used to subtract numbers or strings. 
+/ : slash, used for division.
+* : asterisk, used to multiply. 
+% : Percent, used for modulo operations
+< : less than
+> : greater than
+<= : less or equal to
+>= :greater or equal to 
+#{} : Used to evaluate code inside string. 
+= : Equal, used to asign value to variable. 
+'' : single quotes, used for strings. 
+true : boolean value
+false : boolean value
+%{} : 
+""" : triple quotation marks. Used to print out several strings at once (multiline strings) 
+\t : escape value, tab
+\n : escape value, new line (linebreak)
+\\ : backward slash . Escape token, prints out a single slash
+gets : used to get input from user, or to read one line of file at a time. (ex. 20)
+chomp : removes newline (linebreak) at the end of the string. 
+.to_i : method to change a string into integrer number. (.to_f)
+ARGV : argument variable. The variable holds the arguments you pass in the script. Requires user to enter file name when opening ruby script. 
+$stdin : standard input
+open(filename) : open file
+read : Read a file and return the object as string. !!Open file first !!
+.truncate()
+.write
+.close
+.length
+.exist?
+*args
+Def...end
+.seek
++=
+return
